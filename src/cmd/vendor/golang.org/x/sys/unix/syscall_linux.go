@@ -1855,6 +1855,7 @@ func Getpgrp() (pid int) {
 //sys	Lremovexattr(path string, attr string) (err error)
 //sys	Lsetxattr(path string, attr string, data []byte, flags int) (err error)
 //sys	MemfdCreate(name string, flags int) (fd int, err error)
+//sys	MemfdSecret(flags int) (fd int, err error)
 //sys	Mkdirat(dirfd int, path string, mode uint32) (err error)
 //sys	Mknodat(dirfd int, path string, mode uint32, dev int) (err error)
 //sys	Nanosleep(time *Timespec, leftover *Timespec) (err error)
